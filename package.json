@@ -1,0 +1,37 @@
+{
+  "name": "neobitcoin-p2p",
+  "version": "1.2.0",
+  "description": "Interface to the Neobitcoind P2P network for Neobitcoin",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc mocha"
+  },
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "neobitcoin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neobitcoin-official/neobitcoin-p2p.git"
+  },
+  "dependencies": {
+    "neobitcoin-lib": "https://github.com/neobitcoin-official/neobitcoin-lib.git",
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.2"
+  },
+  "license": "MIT"
+}
